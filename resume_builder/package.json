@@ -1,0 +1,57 @@
+{
+  "name": "resume-builder",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.8",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "boostrap": "^2.0.0",
+    "jspdf": "^2.5.1",
+    "mongoose": "^8.7.0",
+    "react": "^18.2.0",
+    "react-avatar-edit": "^1.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.1",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.2",
+    "uniqid": "^5.4.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "+---public\r |       apple-icon.png\r |       favicon.ico\r |       index.html\r |       logo192.png\r |       logo512.png\r |       manifest.json\r |       robots.txt\r |       \r \\---src\r     |   App.js\r     |   index.css\r     |   index.js\r     |   Store.js\r     |   \r     +---Components\r     |   |   CheckSelectedId.js\r     |   |   \r     |   +---BackNextBtn\r     |   |       BackNextBtnComponent.css\r     |   |       BackNextBtnComponent.js\r     |   |       \r     |   +---BlackScreen\r     |   |       BlackScreen.css\r     |   |       BlackScreen.js\r     |   |       \r     |   +---DetailFillingSidebar\r     |   |       DetailFillingSidebar.js\r     |   |       DetailsFillingSideBar.css\r     |   |       \r     |   +---Education\r     |   |       EducationComponent.css\r     |   |       EducationComponent.js\r     |   |       \r     |   +---Header\r     |   |       TemplateHeader.css\r     |   |       TemplateHeader.js\r     |   |       \r     |   +---Heading\r     |   |       TemplateHeading.css\r     |   |       TemplateHeading.js\r     |   |       \r     |   +---Input\r     |   |       InputComponent.css\r     |   |       InputComponent.js\r     |   |       \r     |   +---KeySkills\r     |   |       KeySkillsComponent.css\r     |   |       KeySkillsComponent.js\r     |   |       \r     |   +---MainBar\r     |   |       Navbar.css\r     |   |       Navbar.js\r     |   |       \r     |   +---PersonalInfo\r     |   |       PersonalInfoComponent.css\r     |   |       PersonalInfoComponent.js\r     |   |       \r     |   +---Preview\r     |   |       PreviewComponent.css\r     |   |       PreviewComponent.js\r     |   |       \r     |   +---Select\r     |   |       SelectComponent.css\r     |   |       SelectComponent.js\r     |   |       \r     |   +---TemplateEducation\r     |   |       TemplateEducationComponent.css\r     |   |       TemplateEducationComponent.js\r     |   |       \r     |   +---TemplateKeySkill\r     |   |       TemplateKeySkillComponent.css\r     |   |       TemplateKeySkillComponent.js\r     |   |       \r     |   +---TemplateOneExperience\r     |   |       TemplateOneExperienceComponent.css\r     |   |       TemplateOneExperienceComponent.js\r     |   |       \r     |   \\---WorkExperience\r     |           WorkExperienceComponent.css\r     |           WorkExperienceComponent.js\r     |           \r     +---Pages\r     |   |   AboutUs.js\r     |   |   DetailsFilling.js\r     |   |   Home.js\r     |   |   index.js\r     |   |   MyResumes.js\r     |   |   \r     |   \\---Styles\r     |           DetailsFilling.css\r     |           Home.css\r     |           MyResumes.css\r     |           \r     +---Redux\r     |   +---Actions\r     |   |       actions.js\r     |   |       \r     |   \\---Reducers\r     |           combinedReducers.js\r     |           reducers.js\r     |           \r     \\---Utils\r         |   inputChecks.js\r         |   \r         +---Data\r         |       data.js\r         |       templates.js\r         |       \r         +---Images\r         |       aboutCV.jpg\r         |       sample_1.jpg\r         |       sample_2.jpg\r         |       sample_3.jpg\r         |       sample_4.jpg\r         |       \r         \\---Templates\r                 Template.css\r                 Template1.js\r                 Template2.js\r                 Template3.js\r                 Template4.js\r                 Template5.js\r                 Template6.js",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
